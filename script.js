@@ -1,5 +1,8 @@
-var player1 = prompt("Enter First Player Name.");
-var player2 = prompt("Enter Second Player Name.");
+var player1 = "Player 1";
+var player2 = "Player 2";
+
+player1 = prompt("Enter First Player Name.");
+player2 = prompt("Enter Second Player Name.");
 
 document.querySelector(".player-1").innerHTML = player1;
 document.querySelector(".player-2").innerHTML = player2;
