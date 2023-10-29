@@ -5,7 +5,7 @@ if (player1 == null) {
   player1 = "Player 1";
 }
 if (player1 == "") {
-  player1 = "Player 2";
+  player1 = "Player 1";
 }
 if (player2 == null) {
   player2 = "Player 2";
