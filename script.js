@@ -1,8 +1,19 @@
-var player1 = "Player 1";
-var player2 = "Player 2";
-
 player1 = prompt("Enter First Player Name.");
 player2 = prompt("Enter Second Player Name.");
+
+if (player1 == null) {
+  player1 = "Player 1";
+}
+if (player1 == "") {
+  player1 = "Player 2";
+}
+if (player2 == null) {
+  player2 = "Player 2";
+}
+if (player2 == "") {
+  player2 = "Player 2";
+}
+
 
 document.querySelector(".player-1").innerHTML = player1;
 document.querySelector(".player-2").innerHTML = player2;
